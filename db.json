@@ -1,0 +1,82 @@
+{
+    "resources": [
+        {
+            "id": 1,
+            "title": "Pikachu card",
+            "balance": 233,
+            "isBlocked": false,
+            "transactions": [
+                { "id": 9, "type": "increment", "title": "salary", "amount": 200 },
+                { "id": 7, "type": "increment", "title": "salary", "amount": 209 },
+                { "id": 23, "type": "decrement", "title": "walmart", "amount": 270 },
+                { "id": 27, "type": "increment", "title": "salary", "amount": 234 }
+            ],
+            "requisites": [
+                { "id": 140, "name": "Card number", "value": "374245455400126" }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "My Little Pony card",
+            "balance": 3000,
+            "isBlocked": false,
+            "transactions": [
+                { "id": 105, "type": "increment", "title": "salary", "amount": 120 },
+                { "id": 102, "type": "decrement", "title": "walmart", "amount": 493 },
+                { "id": 120, "type": "decrement", "title": "Microsoft Azure", "amount": 3153 }
+            ],
+            "requisites": [
+                { "id": 37, "name": "Card number", "value": "378282246310005" },
+                { "id": 55, "name": "Bank", "value": "Bank of Lower Internet" }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "My horny account",
+            "balance": 199,
+            "isBlocked": true,
+            "transactions": [],
+            "requisites": [
+                { "id": 83, "name": "Card number", "value": "778182246310005" },
+                { "id": 78, "name": "Bank", "value": "Tencoff" }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "New account",
+            "balance": 599,
+            "isBlocked": false,
+            "transactions": [
+                { "id": 52, "type": "decrement", "title": "Amazon Web Services", "amount": 12000 }
+            ],
+            "requisites": [
+                { "id": 42, "name": "Card number", "value": "6250941006528599" }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Credit 1 card",
+            "balance": 102200,
+            "isBlocked": false,
+            "transactions": [
+                { "id": 14, "type": "decrement", "title": "Porsche", "amount": 5000200 },
+                { "id": 13, "type": "increment", "title": "salary", "amount": 220 },
+                { "id": 12, "type": "increment", "title": "salary", "amount": 400 }
+            ],
+            "requisites": [
+                { "id": 11, "name": "Credit description", "value": "To buy a car" }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Credit 2 card",
+            "balance": 800,
+            "isBlocked": false,
+            "transactions": [
+                { "id": 55, "type": "increment", "title": "salary", "amount": 220 },
+                { "id": 56, "type": "increment", "title": "salary", "amount": 400 }
+            ],
+            "requisites": []
+        }
+    ]
+}
